@@ -1,0 +1,86 @@
+.bg-green {
+    background-color: #014E56;
+}
+
+.pink {
+    color: #F67E7E;
+}
+
+.h2-header {
+    font-size: 100px;
+    line-height: 100px;
+}
+.text {
+    font-family: 'Livvic';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.dark-green {
+    background-color: #012F34;
+}
+
+.p-text, .info__item {
+    max-width: 445px;
+    width: 100%;
+}
+
+.info__heading {
+    max-width: 445px;
+    width: 100%;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.info__inner-heading {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.info__inner-text {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.info__item {
+    position: relative;
+}
+
+.info__item::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #014E56;
+    right: calc(100% + 23px);
+    top: 10%;
+}
+
+.info__item::after {
+    z-index: 132;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background-image: url('./../img/boy.svg');
+    width: 56px;
+    height: 56px;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: calc(100% + 40px);
+    top: calc(0% - 5px);
+}
+
+.info__item:nth-child(2)::after{
+    background-image: url('./../img/nastroyka.svg');
+}
+
+.info__item:nth-child(3)::after{
+    background-image: url('./../img/statistcs.svg');
+}
+
+input {
+    outline: none;
+}

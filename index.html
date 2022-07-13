@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body class="bg-secondary">
+    
+    
+    <h1 class="text-center pt-5 pb-5">Ob-Havo ma'lumotlari</h1>
+    
+    <div class="container">
+        <div class="row">
+            <form class="heroForm d-flex flex-column justify-content-center">
+                <div class=" gap-1 d-flex flex-column flex-md-row align-items-center justify-content-between mb-3">
+                    <p class="bg-white w-50 border border-black p-1 p-md-3 m-0">Gradusni Kiriting: </p>
+                    
+                    <input class="w-50 p-0 p-1 p-md-3 m-0" type="number" required id="inputGradus" placeholder="°C">
+                </div>
+                
+                <div class="bottom">
+                    <div class="gap-1 top d-flex flex-column flex-md-row align-items-center justify-content-between mb-3">
+                        <p class="bg-white w-50 border border-black p-1 p-md-3 m-0" id="numFarangit">Siz kiritgan gradus Farangitda: </p>
+                        
+                        <input class="w-50 p-0 p-1 p-md-3 m-0" type="number" id="inputFarangit" placeholder="°F">
+                    </div>
+                </div>
+
+
+                <button class="bg-primary d-block p-1 p-md-3 border-0 text-white">&#10226; Convert</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
